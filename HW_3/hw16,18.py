@@ -19,16 +19,10 @@ if (count > 0):
 min = 0;
 p = 0;
 i = 0
-list_2 = list_1
 if count == 0:
     while (i < len(list_1)):
-        list_2[i] = abs(x - list_1[i])
-        i += 1
-    print(list_2)
-    min = list_2[0]
-    while (i < len(list_2)):
-        if min < list_2[i]:
-            min = list_2[i]
+        if abs(x - list_1[0]) > abs(x - list_1[i]):
+            min = abs(x - list_1[i])
             p = i
         i += 1 
     print(f"\n Самое близкое число к {x} - это {list_1[p]}")

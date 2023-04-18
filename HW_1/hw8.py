@@ -5,6 +5,7 @@ print("Введите m")
 m= int(input())
 print("Введите число к <= n*m")
 k= int(input())
+print(k%n)
 if (k%n==0) or (k%m==0):
     print("Yes")
 else:
