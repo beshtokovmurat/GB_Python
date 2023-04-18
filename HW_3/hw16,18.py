@@ -2,7 +2,6 @@ import random
 n = int(input("Введите количество элементов списка "))
 x = int(input("Введите любое число "))
 list_1 = list()
-list_2 = list()
 for i in range(n): 
     #k = int(input("Введите элементы списка "))
     k = random.randint(0,5)
