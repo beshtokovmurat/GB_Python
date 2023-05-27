@@ -199,25 +199,3 @@ def main():
         elif menu == 7:
             break
 main()
-
-# def change_record(ff,str,str1):
-#     ff = open('file.txt','r+', encoding='utf-8')
-#     try:
-#         full_data = ff.readlines()
-#         ff.seek(0)
-#         for i in full_data:
-#             if  (str[1:] != i[:-1]):
-#                 # print(f" str {list(str[1:])} -- > i {list(i[:-1])}")
-#                 ff.write(i)
-#             elif (str[1:] == i[:-1]): 
-#                 # print(f" str {list(str[1:])} -- > i {list(i[:-1])}")
-#                 i = " " + str1 + " ;\n"
-#                 ff.write(i)           
-#     finally:
-#         return ff
-
-
-# str = '\n Б З В 7 ;'
-# str1 = 'Бештокова'
-# f = open('file.txt','r+', encoding='utf-8')
-# change_record(f,str,str1)
