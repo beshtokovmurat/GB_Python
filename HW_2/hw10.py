@@ -16,4 +16,4 @@ if(count0<count1):
     print(f"\n Минимальное число {count0}")
 if (count0>count1): 
     print(f"\n Минимальное число {count1}")
-
+ 
