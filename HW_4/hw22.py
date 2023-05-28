@@ -13,7 +13,7 @@ for i in range(n1):
     k = random.randint(-5,5)
     lst1.append(k) 
 print(lst1)
-lst1 = set(lst1)
+lst1 = set(lst1) 
 print(lst1)
 for i in range(n2):
     k = random.randint(-5,5)
