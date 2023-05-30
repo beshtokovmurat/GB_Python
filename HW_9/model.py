@@ -1,0 +1,37 @@
+phone_book: list[dict[str,str]] = []
+path = 'phone.txt'
+
+# 1 usage
+
+def open_pb():
+    global phone_book, path
+    with open(path, 'r', encoding='UTF-8') as file:
+        data = file.readlines()
+    for contact in data:
+        contact = contact.strip().split(':')
+        phone_book.append({'name': contact[0], 'phone': contact[1], 'comment': contact[2]})
+
+
+# 1 usage
+def save_pb():
+    global phone_book, path
+    data = []
+    for contact in phone_book:
+        contact = ':'.join([value for value in contact.values()])
+        data.append(contact)
+    with open(path, 'w', encording = 'UTF-8') as file:
+        file.write('\n'.join(data))
+
+# 2 usages
+def get_pb() -> list[dict[str, str]]:
+    global phone_book
+    return phone_book
+
+# 1 usage
+def add_contact(contact: dict[str,str]):
+    phone_book.append(contact)
+    return contact.get('name')
+
+# 1 usage
+def del_contact(index: int):
+    return phone_book.pop(index-1).get('name')
