@@ -1,7 +1,7 @@
 def sum(a,b):
     if b == 0:
         return a
-    elif a == 0:
+    elif a == 0:               
         return b
     elif a >= b:
         return(a + sum(1,b-1))

@@ -5,4 +5,4 @@ def power(a,b):
 
 A = int(input("Введите число A "))
 B = int(input("Введите число B "))
-print(power(A,B))
+print(power(A,B))         

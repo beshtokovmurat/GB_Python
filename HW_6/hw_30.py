@@ -10,4 +10,4 @@ def arifm_prog(a1,d,n):
     return an
 
 for i in range(n): 
-    print(arifm_prog(a1,d,i+1))
+    print(arifm_prog(a1,d,i+1))          

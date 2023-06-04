@@ -10,6 +10,6 @@ min = int(input("Введите min число "))
 max = int(input("Введите max число "))
 i = 0 
 for i in range(len(lst)):
-    if min<= lst[i]<= max:
+    if min<= lst[i]<= max:              
         print(i, end=" ")
 print()
