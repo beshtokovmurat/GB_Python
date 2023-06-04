@@ -28,6 +28,6 @@ for i in lst1:
         if i == j:
             lst3.append(i)
             k += 1
-print()
+print()                   
 print(sorted(lst3))
 

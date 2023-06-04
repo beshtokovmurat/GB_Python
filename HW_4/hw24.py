@@ -20,6 +20,6 @@ if lst[0]+lst[1]+lst[2] > max:
 if lst[n-2]+lst[n-1]+lst[0] > max:
     max = lst[n-2]+lst[n-1]+lst[0]
 if lst[n-1]+lst[0]+lst[1] > max: 
-    max = lst[n-1]+lst[0]+lst[1]
+    max = lst[n-1]+lst[0]+lst[1]         
 
 print(max)
