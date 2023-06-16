@@ -17,7 +17,7 @@ lst1 = list()
 # 1 способ
 for i in lst:
     lst1.append(len(list(filter(lambda x: x in glasn, i))))
-
+                                                                       
 
 # 2 способ
 # for i in lst:
